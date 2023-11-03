@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-
+a{
+    color: white;
+}
 
 *{
     /* max-width: 0; */
@@ -9,13 +11,14 @@
 }
 body{
     margin: 0;
+    text-decoration: none;
 }
 html{
     scroll-behavior: smooth;
 }
 
 .main-heading{
-    text-shadow: 0px 0px 10px crimson;
+    text-shadow: 0px 0px 12px #009292;
 }
 nav{
     display: flex;
@@ -61,12 +64,13 @@ nav.scrolled{
   box-shadow: 0 4px 6px -6px #222;
 
     left: 0;
-    background-color: crimson;
+    background-color: #009292;
     width:100% ;
     height: 80px;
 
  
 }
+
 nav.scrolled .navbar ul li a:hover{
     color:  white;
 }
@@ -95,7 +99,7 @@ nav.scrolled h1{
     margin-left: 125px
 }
 .main-headline span{
-    color: crimson;
+    color: #009292;
 }
 
 .nav .bg{
@@ -147,14 +151,22 @@ nav.scrolled h1{
     cursor: pointer;
     opacity: 1;
     margin-top: 8px;
-    background-color: crimson;
+    background-color: #009292;
     transition: background-color 0.5s ease-in-out;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
+    text-decoration: none;
 }
-
+.btn a{
+    text-decoration: none;
+    color: white;
+}
 .btn:hover{
-    color: crimson;
+    color: #009292;
+    background-color: transparent ;
+}
+.btn a:hover{
+    color: #009292;
     background-color: transparent ;
 }
 
@@ -162,6 +174,7 @@ nav.scrolled h1{
 
  .heading{
     text-align: center;
+  
 }
 
 
@@ -171,11 +184,10 @@ nav.scrolled h1{
     font-weight: 1000;
     margin-bottom: 30px;
     margin-top: 0px;
+    padding-top: 140px;
 }
 
-.products .heading h1{
-   padding-top: 140px;
-}
+
 .heading h4{
     font-size: 17px;
     font-weight:650;
@@ -184,7 +196,7 @@ nav.scrolled h1{
   
 }
  .heading h4 span{
-color: crimson;
+color: #009292;
 }
 
 
@@ -195,17 +207,11 @@ color: crimson;
     /* padding: 50px 0px; */
  }
  
- 
- 
-
-
-
-
  .card{
     background-color: #d2d2d2;
     font-family: 'Montserrat', sans-serif;
-    border: 1px solid crimson;
-    box-shadow: 0px 0px 7px crimson;
+    border: 1px solid #009292;
+    box-shadow: 0px 0px 7px #009292;
     /* background-color: #232323; */
     width: 200px;
     border-radius: 0.5rem;
@@ -236,7 +242,7 @@ color: crimson;
 
 
 .price{
-    color: crimson;
+    color: #009292;
     margin-top: 18px;
     margin-bottom: 15px;
 }
@@ -276,7 +282,7 @@ color: crimson;
  }
  
  .Services-section .heading{
-    padding-top: 100px;
+    /* padding-top: 100px; */
  }
  
  .Services-section .heading h1{
@@ -336,6 +342,11 @@ margin: .5rem 0;
      padding-bottom: 20px;
  }
  
+ .contact-section .heading h1{
+     padding-top: 0px;
+     
+ }
+ 
  
  
  input[type="text"],input[type="email"]{
@@ -373,15 +384,15 @@ margin: .5rem 0;
      outline: none;
      font-size: 17px;
      font-weight: 400;
-     border: 2px solid crimson;
+     border: 2px solid #009292;
      transition: all 0.3s ease;
-     margin-top: 10px;
+     margin-top: 10px;cursor: pointer;
  
  }
  
  .form .btn:hover{
      background-color: transparent;
-     color: crimson;
+     color: #009292;
  }
  
  
@@ -438,13 +449,14 @@ margin: .5rem 0;
 .footer-sub button{
    padding: 16px 30px;
    color: white;
-   background-color: crimson;
+   background-color: #009292;
    border-radius: 50px;
    font-weight: 550;
            border:none;
            margin-left: 20px;
            /* height: 30px; */
            font-size: 15px;
+           cursor: pointer;
 }
 
 .footer-contact{
@@ -464,7 +476,7 @@ margin: .5rem 0;
 }
 
 .fot-add-item i{
-    color: crimson;font-size: 23px;
+    color: #21baba;font-size: 23px;
     margin-right: 25px;
     margin-bottom: 5px;
 }
@@ -552,6 +564,6 @@ margin: .5rem 0;
  }
 
  .contact-headline{
-   font-family: 1000;
+   font-weight: 1000;
  }
  
